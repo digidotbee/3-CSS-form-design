@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #5fb2f5;
+  }
+  body{
+    font-family: Gill Sans;
+    color: #f7f6f2;
+    background-color: #5fb2f5
+  }
+
+  .column1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 400px;
+  }
+  .column2{
+    margin:0px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  .column3{
+    margin: 0px;
+    justify-content: space-evenly;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  #lastName, #firstName, #email, #select_country, #bio{
+    padding:3px;
+    margin:3px;
+  }
+  #phone, #job, #email, #catname, #gadget{
+    padding:3px;
+    margin:3px;
+  }
+  textarea{
+    height:100px;
+    border-style: solid;
+    border-color: #f7f6f2
+  }
+  input, option, select {
+    border-style: groove;
+    border-color: #f7f6f2;
+    border-radius: 3%;
+    height: 30px;
+  } 
+  .formcontain{
+    display:flex;
+    padding: 15px;
+  }
+  input:focus{
+      outline: 1px solid #000;
+  }
+  select:focus{
+      outline: 1px solid #000;
+  }
